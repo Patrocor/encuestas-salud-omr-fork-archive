@@ -143,3 +143,5 @@ def test_sample_pdf_statistics_reconcile_with_extraction() -> None:
         assert sum(item["percent"] for item in categories) == pytest.approx(
             100.0, abs=0.3
         )
+
+# ci trigger verification (temporary)
